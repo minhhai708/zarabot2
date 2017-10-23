@@ -38179,3 +38179,796 @@ JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catal
 1508748111995	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zara.com/es/en/"
 1508748111998	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zara.com/es/en/"
 1508748112827	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780693658	geckodriver	INFO	geckodriver 0.19.0
+1508780693664	geckodriver	INFO	Listening on 127.0.0.1:38622
+1508780694917	geckodriver	INFO	geckodriver 0.19.0
+1508780694920	geckodriver	INFO	Listening on 127.0.0.1:53012
+1508780696129	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.UENTKawDag8v"
+1508780712660	geckodriver	INFO	geckodriver 0.19.0
+1508780712663	geckodriver	INFO	Listening on 127.0.0.1:46737
+1508780713741	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.exl8dln7UBXz"
+1508780713907	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1508780714378	Marionette	INFO	Enabled via --marionette
+1508780717009	Marionette	INFO	Listening on port 40309
+1508780717060	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508780717097	Marionette	DEBUG	Register listener.js for window 2147483649
+1508780717115	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508780717199	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508780717199	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508780718565	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zara.com/es/en/"
+1508780719355	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zara.com/es/en/"
+1508780719827	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508780721249	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780721639	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508780723006	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780723327	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780723651	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780723977	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780724287	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780724633	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780724963	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780725266	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780725573	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780725882	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780726189	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780726522	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780726830	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780727136	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780727462	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780727773	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780728080	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780728417	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780728728	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780729024	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780729346	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780729667	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780729988	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780730298	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780730599	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780730908	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780731214	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780731541	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780731842	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1508780927896	geckodriver	INFO	geckodriver 0.19.0
+1508780927898	geckodriver	INFO	Listening on 127.0.0.1:36794
+1508780928977	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.yB8T1pQqTZOB"
+1508780929119	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1508780929554	Marionette	INFO	Enabled via --marionette
+1508780931117	Marionette	INFO	Listening on port 43798
+1508780931252	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508780931293	Marionette	DEBUG	Register listener.js for window 2147483649
+1508780931316	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508780931381	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508780931381	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508780932459	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zara.com/es/en/"
+1508780933200	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zara.com/es/en/"
+1508780933591	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508780934619	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780934895	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780935131	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508780939438	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780939618	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.zara.com/es/en/user/invoice"
+1508780939879	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.zara.com/es/en/user/invoice"
+1508780939880	Marionette	DEBUG	Received DOM event "unload" for "https://www.zara.com/es/en/user/invoice"
+1508780939884	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1508780939885	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483649"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1508780948176	geckodriver	INFO	geckodriver 0.19.0
+1508780948179	geckodriver	INFO	Listening on 127.0.0.1:52267
+1508780949257	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.jGARs5YFmUfU"
+1508780949401	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1508780949910	Marionette	INFO	Enabled via --marionette
+1508780951428	Marionette	INFO	Listening on port 37749
+1508780951474	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508780951509	Marionette	DEBUG	Register listener.js for window 2147483649
+1508780951592	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508780951653	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508780951653	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508780952632	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zara.com/es/en/"
+1508780953380	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zara.com/es/en/"
+1508780953723	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508780955235	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780955516	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780956364	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780956673	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508780956986	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780957319	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780957639	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780957953	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780958318	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780958634	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780958970	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780959294	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780959601	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780959907	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780960214	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780960528	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780960838	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780961136	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780961435	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780961749	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780962057	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780962368	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780962669	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780962991	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780963293	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780963591	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780963932	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780964248	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780964562	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780964867	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780965181	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780965491	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780965604	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.zara.com/es/en/user/order"
+1508780965701	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.zara.com/es/en/user/order"
+1508780965703	Marionette	DEBUG	Received DOM event "unload" for "https://www.zara.com/es/en/user/order"
+1508780965756	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1508780965951	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zara.com/es/en/"
+1508780965954	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zara.com/es/en/"
+1508780966792	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508780967769	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508781483542	geckodriver	INFO	geckodriver 0.19.0
+1508781483545	geckodriver	INFO	Listening on 127.0.0.1:46841
+1508781484698	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.2jLorZez3sSr"
+1508781484845	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1508781485301	Marionette	INFO	Enabled via --marionette
+1508781486803	Marionette	INFO	Listening on port 46580
+1508781486943	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508781486980	Marionette	DEBUG	Register listener.js for window 2147483649
+1508781486998	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508781487059	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508781487059	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508781488107	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zara.com/es/en/"
+1508781488862	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zara.com/es/en/"
+1508781489205	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508781490285	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508781490559	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508781491399	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508781491707	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508781492010	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508781492331	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508781492659	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508781492975	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508781493283	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508781493589	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508781493908	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508781500006	geckodriver	INFO	geckodriver 0.19.0
+1508781500008	geckodriver	INFO	Listening on 127.0.0.1:47737
+1508781501092	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.Brs1WjgLTTsB"
+1508781501231	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1508781501936	Marionette	INFO	Enabled via --marionette
+1508781503528	Marionette	INFO	Listening on port 33223
+1508781503622	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508781503656	Marionette	DEBUG	Register listener.js for window 2147483649
+1508781503680	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508781503750	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508781503750	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508781504764	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zara.com/es/en/"
+1508781505531	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zara.com/es/en/"
+1508781505923	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508781506921	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508781507210	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508781507449	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508781511782	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508781512075	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508781512317	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508781516634	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508781516939	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508781517177	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508781521505	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508781521772	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508781521833	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.zara.com/es/en/user/invoice"
+1508781521969	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.zara.com/es/en/user/invoice"
+1508781521970	Marionette	DEBUG	Received DOM event "unload" for "https://www.zara.com/es/en/user/invoice"
+1508781522020	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1508781522203	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zara.com/es/en/"
+1508781522207	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zara.com/es/en/"
+1508781523031	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508781523947	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508781524218	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508781524454	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508781528781	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508781529054	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508781529109	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.zara.com/es/en/user/invoice"
+1508781529198	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.zara.com/es/en/user/invoice"
+1508781529199	Marionette	DEBUG	Received DOM event "unload" for "https://www.zara.com/es/en/user/invoice"
+1508781529248	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483656"
+1508781529430	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zara.com/es/en/"
+1508781529433	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zara.com/es/en/"
+1508781530274	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508781531244	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508781531514	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508781531745	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508781551653	geckodriver	INFO	geckodriver 0.19.0
+1508781551655	geckodriver	INFO	Listening on 127.0.0.1:43989
+1508781552740	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.Xwb3UfafFyaE"
+1508781552886	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1508781553321	Marionette	INFO	Enabled via --marionette
+1508781554889	Marionette	INFO	Listening on port 34801
+1508781554980	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508781555017	Marionette	DEBUG	Register listener.js for window 2147483649
+1508781555040	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508781555095	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508781555095	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508781556215	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zara.com/es/en/"
+1508781556959	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zara.com/es/en/"
+1508781557337	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508781558349	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508781558666	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508781558911	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508781563221	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508781563488	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508781563722	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508781606253	geckodriver	INFO	geckodriver 0.19.0
+1508781606256	geckodriver	INFO	Listening on 127.0.0.1:51291
+1508781607354	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.jq2WUrwTmce7"
+1508781607491	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1508781608022	Marionette	INFO	Enabled via --marionette
+1508781609410	Marionette	INFO	Listening on port 44075
+1508781609468	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508781609498	Marionette	DEBUG	Register listener.js for window 2147483649
+1508781609562	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508781609624	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508781609624	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508781610615	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zara.com/es/en/"
+1508781611354	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zara.com/es/en/"
+1508781611760	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508781612749	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508781613050	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508781613324	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508781617637	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508781617924	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508781618163	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508781622534	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508781622831	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508781622925	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.zara.com/es/en/user/invoice"
+1508781623051	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.zara.com/es/en/user/invoice"
+1508781623052	Marionette	DEBUG	Received DOM event "unload" for "https://www.zara.com/es/en/user/invoice"
+1508781623118	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1508781623335	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zara.com/es/en/"
+1508781623337	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zara.com/es/en/"
+1508781624176	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508781625676	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508781625989	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508781626226	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508781630556	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508781630828	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508781630916	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.zara.com/es/en/user/invoice"
+1508781631108	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.zara.com/es/en/user/invoice"
+1508781631109	Marionette	DEBUG	Received DOM event "unload" for "https://www.zara.com/es/en/user/invoice"
+1508781631164	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483656"
+1508781631421	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zara.com/es/en/"
+1508781631424	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zara.com/es/en/"
+1508781632338	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508781633213	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508781633488	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508781633737	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508781687740	geckodriver	INFO	geckodriver 0.19.0
+1508781687742	geckodriver	INFO	Listening on 127.0.0.1:56053
+1508781688821	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.u6Id4E8ZB3wg"
+1508781688961	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1508781689403	Marionette	INFO	Enabled via --marionette
+1508781690953	Marionette	INFO	Listening on port 46306
+1508781691080	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508781691120	Marionette	DEBUG	Register listener.js for window 2147483649
+1508781691138	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508781691199	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508781691199	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508781692170	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zara.com/es/en/"
+1508781692994	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zara.com/es/en/"
+1508781693436	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508781694929	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508781695222	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508781695459	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508782007720	geckodriver	INFO	geckodriver 0.19.0
+1508782007722	geckodriver	INFO	Listening on 127.0.0.1:35478
+1508782008865	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.MauDyPYg7RUx"
+1508782009005	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1508782009450	Marionette	INFO	Enabled via --marionette
+1508782011003	Marionette	INFO	Listening on port 36536
+1508782011096	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508782011136	Marionette	DEBUG	Register listener.js for window 2147483649
+1508782011199	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508782011269	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508782011269	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508782012261	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zara.com/es/en/"
+1508782013029	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zara.com/es/en/"
+1508782013402	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508782014415	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508782014725	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508782014974	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508782019300	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508782019602	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508782019839	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508782031357	geckodriver	INFO	geckodriver 0.19.0
+1508782031360	geckodriver	INFO	Listening on 127.0.0.1:33987
+1508782032523	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.dHdm4HvG8Niq"
+1508782032659	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1508782033112	Marionette	INFO	Enabled via --marionette
+1508782034638	Marionette	INFO	Listening on port 33997
+1508782034786	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508782034827	Marionette	DEBUG	Register listener.js for window 2147483649
+1508782034851	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508782034928	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508782034928	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508782036027	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zara.com/es/en/"
+1508782036969	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zara.com/es/en/"
+1508782037328	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508782038802	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508782039106	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508782039177	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.zara.com/es/en/user/invoice"
+1508782039272	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.zara.com/es/en/user/invoice"
+1508782039273	Marionette	DEBUG	Received DOM event "unload" for "https://www.zara.com/es/en/user/invoice"
+1508782039318	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1508782039494	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zara.com/es/en/"
+1508782039497	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zara.com/es/en/"
+1508782040316	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508782041201	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508782041492	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508782041751	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508782076948	geckodriver	INFO	geckodriver 0.19.0
+1508782076951	geckodriver	INFO	Listening on 127.0.0.1:40010
+1508782078092	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.Y3c1AdTWKKkl"
+1508782078228	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1508782078665	Marionette	INFO	Enabled via --marionette
+1508782080131	Marionette	INFO	Listening on port 40755
+1508782080249	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508782080293	Marionette	DEBUG	Register listener.js for window 2147483649
+1508782080313	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508782080367	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508782080367	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508782081336	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zara.com/es/en/"
+1508782082082	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zara.com/es/en/"
+1508782082509	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508782083508	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508782083797	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508782084030	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508782088375	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508782088696	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508782088759	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.zara.com/es/en/user/invoice"
+1508782088871	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.zara.com/es/en/user/invoice"
+1508782088872	Marionette	DEBUG	Received DOM event "unload" for "https://www.zara.com/es/en/user/invoice"
+1508782088921	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1508782089097	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zara.com/es/en/"
+1508782089101	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zara.com/es/en/"
+1508782089975	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508782090934	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+[Child 18424] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1508782134613	geckodriver	INFO	geckodriver 0.19.0
+1508782134616	geckodriver	INFO	Listening on 127.0.0.1:36204
+1508782135766	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.nXVoKb7PO7BD"
+1508782135903	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1508782136338	Marionette	INFO	Enabled via --marionette
+1508782137786	Marionette	INFO	Listening on port 38676
+1508782137885	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508782137921	Marionette	DEBUG	Register listener.js for window 2147483649
+1508782137951	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508782138019	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508782138019	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508782139239	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zara.com/es/en/"
+1508782139242	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zara.com/es/en/"
+1508782140182	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508782141139	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508782141458	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508782141700	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508782155620	geckodriver	INFO	geckodriver 0.19.0
+1508782155622	geckodriver	INFO	Listening on 127.0.0.1:44274
+1508782156707	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.uXcZ9z1rNcI0"
+1508782156852	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1508782157320	Marionette	INFO	Enabled via --marionette
+1508782158820	Marionette	INFO	Listening on port 40362
+1508782158920	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508782158950	Marionette	DEBUG	Register listener.js for window 2147483649
+1508782158967	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508782159022	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508782159023	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508782160089	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zara.com/es/en/"
+1508782160873	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zara.com/es/en/"
+1508782161234	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508782162638	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+JavaScript error: chrome://browser/content/tabbrowser.xml, line 3660: TypeError: this.tabs is undefined
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1508782220574	geckodriver	INFO	geckodriver 0.19.0
+1508782220576	geckodriver	INFO	Listening on 127.0.0.1:49906
+1508782221659	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.HIdi0XDjQe2y"
+1508782221796	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1508782222217	Marionette	INFO	Enabled via --marionette
+1508782223871	Marionette	INFO	Listening on port 33689
+1508782223981	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508782224020	Marionette	DEBUG	Register listener.js for window 2147483649
+1508782224040	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508782224115	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508782224115	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508782225154	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zara.com/es/en/"
+1508782225875	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zara.com/es/en/"
+1508782226258	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508782227314	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+[Parent 19457] WARNING: pipe error: Broken pipe: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1508782256905	geckodriver	INFO	geckodriver 0.19.0
+1508782256908	geckodriver	INFO	Listening on 127.0.0.1:49717
+1508782257984	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.S0ZSlhskauVj"
+1508782258120	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1508782258543	Marionette	INFO	Enabled via --marionette
+1508782260213	Marionette	INFO	Listening on port 36545
+1508782260345	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508782260380	Marionette	DEBUG	Register listener.js for window 2147483649
+1508782260397	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508782260463	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508782260464	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508782261525	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zara.com/es/en/"
+1508782262270	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zara.com/es/en/"
+1508782262664	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508782263638	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508782293958	geckodriver	INFO	geckodriver 0.19.0
+1508782293961	geckodriver	INFO	Listening on 127.0.0.1:60360
+1508782295039	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.VdAdYV4XgDtl"
+1508782295173	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1508782295618	Marionette	INFO	Enabled via --marionette
+1508782297104	Marionette	INFO	Listening on port 38743
+1508782297150	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508782297180	Marionette	DEBUG	Register listener.js for window 2147483649
+1508782297253	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508782297312	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508782297313	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508782298413	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zara.com/es/en/"
+1508782299127	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zara.com/es/en/"
+1508782299507	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508782300450	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508782300738	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508782300975	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508782305292	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508782305579	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508782305635	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.zara.com/es/en/user/invoice"
+1508782305726	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.zara.com/es/en/user/invoice"
+1508782305727	Marionette	DEBUG	Received DOM event "unload" for "https://www.zara.com/es/en/user/invoice"
+1508782305775	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1508782305960	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zara.com/es/en/"
+1508782305962	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zara.com/es/en/"
+1508782306850	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508782307773	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508782308049	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508782308281	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508782374825	geckodriver	INFO	geckodriver 0.19.0
+1508782374827	geckodriver	INFO	Listening on 127.0.0.1:54274
+1508782375909	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.yOZkdtPCLefG"
+1508782376046	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1508782376468	Marionette	INFO	Enabled via --marionette
+1508782377871	Marionette	INFO	Listening on port 40962
+1508782377984	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508782378024	Marionette	DEBUG	Register listener.js for window 2147483649
+1508782378058	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508782378112	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508782378112	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508782379194	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zara.com/es/en/"
+1508782379918	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zara.com/es/en/"
+1508782380317	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508782381286	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508782381599	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508782381671	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.zara.com/es/en/user/invoice"
+1508782381754	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.zara.com/es/en/user/invoice"
+1508782381755	Marionette	DEBUG	Received DOM event "unload" for "https://www.zara.com/es/en/user/invoice"
+1508782381799	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1508782381977	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zara.com/es/en/"
+1508782381979	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zara.com/es/en/"
+1508782382798	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508782383698	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508782383977	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508782384031	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.zara.com/es/en/user/invoice"
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508782384111	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.zara.com/es/en/user/invoice"
+1508782384113	Marionette	DEBUG	Received DOM event "unload" for "https://www.zara.com/es/en/user/invoice"
+1508782384168	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483656"
+1508782384346	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zara.com/es/en/"
+1508782384349	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zara.com/es/en/"
+1508782385193	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508782386141	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508782386454	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+[Child 20655] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1508782399725	geckodriver	INFO	geckodriver 0.19.0
+1508782399727	geckodriver	INFO	Listening on 127.0.0.1:56977
+1508782400880	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.jRpL4MVYOudi"
+1508782401025	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1508782401541	Marionette	INFO	Enabled via --marionette
+1508782403109	Marionette	INFO	Listening on port 36113
+1508782403256	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508782403293	Marionette	DEBUG	Register listener.js for window 2147483649
+1508782403320	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508782403374	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508782403374	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508782404345	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zara.com/es/en/"
+1508782405118	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zara.com/es/en/"
+1508782405465	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508782406540	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508782406822	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508782407062	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508782705321	geckodriver	INFO	geckodriver 0.19.0
+1508782705324	geckodriver	INFO	Listening on 127.0.0.1:48115
+1508782706462	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.2K6SP0JK5Pnk"
+1508782706599	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1508782707069	Marionette	INFO	Enabled via --marionette
+1508782708447	Marionette	INFO	Listening on port 33922
+1508782708475	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508782708508	Marionette	DEBUG	Register listener.js for window 2147483649
+1508782708584	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508782708654	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508782708655	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508782709711	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zara.com/es/en/"
+1508782710472	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zara.com/es/en/"
+1508782710858	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508782711885	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508782714240	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508782714476	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508782718805	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508782721120	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508782721178	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.zara.com/es/en/user/invoice"
+1508782721281	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.zara.com/es/en/user/invoice"
+1508782721282	Marionette	DEBUG	Received DOM event "unload" for "https://www.zara.com/es/en/user/invoice"
+1508782721331	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1508782721501	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zara.com/es/en/"
+1508782721504	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zara.com/es/en/"
+1508782722338	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508782723291	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508782725620	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508782725856	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508782730188	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508782850461	geckodriver	INFO	geckodriver 0.19.0
+1508782850464	geckodriver	INFO	Listening on 127.0.0.1:37074
+1508782851635	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.pamE0M8xTode"
+1508782851772	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1508782852198	Marionette	INFO	Enabled via --marionette
+1508782853637	Marionette	INFO	Listening on port 38897
+1508782853646	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508782853680	Marionette	DEBUG	Register listener.js for window 2147483649
+1508782853696	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508782853772	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508782853772	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508782854838	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zara.com/es/en/"
+1508782855562	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zara.com/es/en/"
+1508782855968	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508782857122	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508782859454	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508782859733	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508782864057	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508782866420	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508782866509	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.zara.com/es/en/user/invoice"
+1508782866613	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.zara.com/es/en/user/invoice"
+1508782866615	Marionette	DEBUG	Received DOM event "unload" for "https://www.zara.com/es/en/user/invoice"
+1508782866663	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1508782866858	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zara.com/es/en/"
+1508782866861	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zara.com/es/en/"
+1508782867704	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508782868668	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508782877996	geckodriver	INFO	geckodriver 0.19.0
+1508782877999	geckodriver	INFO	Listening on 127.0.0.1:36281
+1508782879083	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.3J1jqHDQvj0L"
+1508782879227	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1508782879660	Marionette	INFO	Enabled via --marionette
+1508782881110	Marionette	INFO	Listening on port 38693
+1508782881239	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508782881279	Marionette	DEBUG	Register listener.js for window 2147483649
+1508782881289	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508782881377	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508782881377	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508782882444	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zara.com/es/en/"
+1508782883194	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zara.com/es/en/"
+1508782883596	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508782884601	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508782886909	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508782887010	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.zara.com/es/en/user/invoice"
+1508782887107	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.zara.com/es/en/user/invoice"
+1508782887107	Marionette	DEBUG	Received DOM event "unload" for "https://www.zara.com/es/en/user/invoice"
+1508782887150	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1508782887324	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zara.com/es/en/"
+1508782887326	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zara.com/es/en/"
+1508782888196	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508782889215	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508782891531	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508782891768	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508782893890	geckodriver	INFO	geckodriver 0.19.0
+1508782893893	geckodriver	INFO	Listening on 127.0.0.1:46401
+1508782894976	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.EjseEUNXoGq8"
+1508782895114	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1508782895619	Marionette	INFO	Enabled via --marionette
+1508782897164	Marionette	INFO	Listening on port 32923
+1508782897261	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508782897298	Marionette	DEBUG	Register listener.js for window 2147483649
+1508782897329	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508782897406	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508782897406	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508782898408	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zara.com/es/en/"
+1508782899222	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zara.com/es/en/"
+1508782899609	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508782900639	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508782902981	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508782903054	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.zara.com/es/en/user/invoice"
+1508782903159	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.zara.com/es/en/user/invoice"
+1508782903160	Marionette	DEBUG	Received DOM event "unload" for "https://www.zara.com/es/en/user/invoice"
+1508782903207	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1508782903388	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zara.com/es/en/"
+1508782903391	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zara.com/es/en/"
+1508782904227	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508782906223	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508782908520	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508782908598	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.zara.com/es/en/user/invoice"
+1508782908701	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.zara.com/es/en/user/invoice"
+1508782908701	Marionette	DEBUG	Received DOM event "unload" for "https://www.zara.com/es/en/user/invoice"
+1508782908754	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483656"
+1508782908940	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zara.com/es/en/"
+1508782908943	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zara.com/es/en/"
+[Child 23648] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1508782927692	geckodriver	INFO	geckodriver 0.19.0
+1508782927694	geckodriver	INFO	Listening on 127.0.0.1:59053
+1508782928789	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.tpkZs7lU5bpH"
+1508782928946	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1508782929404	Marionette	INFO	Enabled via --marionette
+1508782930764	Marionette	INFO	Listening on port 37878
+1508782930810	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508782930843	Marionette	DEBUG	Register listener.js for window 2147483649
+1508782930912	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508782931007	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508782931008	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508782931958	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zara.com/es/en/"
+1508782932712	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zara.com/es/en/"
+1508782933109	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508782934129	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508782936457	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508782936543	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.zara.com/es/en/user/invoice"
+1508782936638	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.zara.com/es/en/user/invoice"
+1508782936639	Marionette	DEBUG	Received DOM event "unload" for "https://www.zara.com/es/en/user/invoice"
+1508782936683	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1508782936886	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zara.com/es/en/"
+1508782936889	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zara.com/es/en/"
+1508782937732	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508782938746	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508782941075	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508782941129	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.zara.com/es/en/user/invoice"
+1508782941330	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.zara.com/es/en/user/invoice"
+1508782941332	Marionette	DEBUG	Received DOM event "unload" for "https://www.zara.com/es/en/user/invoice"
+1508782941383	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483656"
+1508782941561	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zara.com/es/en/"
+1508782941564	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zara.com/es/en/"
+1508782942420	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508782943495	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508782945863	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508782945939	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.zara.com/es/en/user/invoice"
+1508782946050	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.zara.com/es/en/user/invoice"
+1508782946052	Marionette	DEBUG	Received DOM event "unload" for "https://www.zara.com/es/en/user/invoice"
+1508782946100	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483659"
+1508782946280	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zara.com/es/en/"
+1508782946283	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zara.com/es/en/"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1508782995323	geckodriver	INFO	geckodriver 0.19.0
+1508782995325	geckodriver	INFO	Listening on 127.0.0.1:58744
+1508782996415	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.Q2dgiqKCBN9A"
+1508782996551	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1508782996956	Marionette	INFO	Enabled via --marionette
+1508782998380	Marionette	INFO	Listening on port 35702
+1508782998478	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508782998519	Marionette	DEBUG	Register listener.js for window 2147483649
+1508782998551	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508783004595	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508783004635	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508783004635	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508783004637	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483649"
+1508783004859	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1508783006431	geckodriver	INFO	geckodriver 0.19.0
+1508783006434	geckodriver	INFO	Listening on 127.0.0.1:55924
+1508783007512	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.vMM49WbN7Jep"
+1508783007692	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1508783008207	Marionette	INFO	Enabled via --marionette
+1508783009709	Marionette	INFO	Listening on port 36337
+1508783009727	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508783009775	Marionette	DEBUG	Register listener.js for window 2147483649
+1508783009879	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508783018448	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508783018467	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508783018468	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508783018468	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483649"
+1508783018653	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1508783113531	geckodriver	INFO	geckodriver 0.19.0
+1508783113534	geckodriver	INFO	Listening on 127.0.0.1:54161
+1508783114608	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.QbeMtivwE5au"
+1508783114745	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1508783115141	Marionette	INFO	Enabled via --marionette
+1508783116697	Marionette	INFO	Listening on port 37550
+1508783116720	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508783116757	Marionette	DEBUG	Register listener.js for window 2147483649
+1508783116784	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508783122101	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508783122113	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508783122113	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508783122114	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483649"
+1508783122210	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1508783309050	geckodriver	INFO	geckodriver 0.19.0
+1508783309097	geckodriver	INFO	Listening on 127.0.0.1:36042
+1508783310199	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.uWSl4IZi3c91"
+1508783311881	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1508783312812	Marionette	INFO	Enabled via --marionette
+1508783318870	Marionette	INFO	Listening on port 35002
+1508783318940	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508783318974	Marionette	DEBUG	Register listener.js for window 2147483649
+1508783318998	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508783319099	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508783319100	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508783321042	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zara.com/es/en/"
+1508783321778	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zara.com/es/en/"
+1508783322279	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508783323259	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://static.zara.net/stdstatic/1.51.0-b.18/js/bundles/catalog/home.js, line 1: TypeError: this.$mainEl is null
+1508783325561	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508783325834	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
