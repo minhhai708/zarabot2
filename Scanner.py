@@ -9,7 +9,7 @@ from selenium.common.exceptions import TimeoutException
 from selenium.common.exceptions import NoSuchElementException
 from Order import OrderList
 from Account import AccountList
-from Account import Account
+import os
 
 
 WAIT_TIME = 2
@@ -153,9 +153,9 @@ class Action():
         downloadText = "Download"
         try:
             WebDriverWait(browser, WAIT_TIME).until(EC.element_to_be_clickable((By.PARTIAL_LINK_TEXT,downloadText)))
-            links = browser.find_element_by_class_name(invoicesDownload)
-            print("here")
-            print (links.pop().text)
+            links = browser.find_elements_by_class_name(invoicesDownload)
+            for l in links:
+                l.click()
         except TimeoutException:
             print("TIME OUT-clickDownloadInvoice")
             return
@@ -164,31 +164,45 @@ class Action():
             return
 
     def getInvoiceByAccount(self, browser, account):
+
+
+
+
         self.clickLogIn(browser)
         self.logIn(browser, account.getEmail(), account.getPassword())
         self.clickAccountMenu(browser)
-        self.clickDownloadInvoice(browser)
         self.clickInvoices(browser)
-
+        self.clickDownloadInvoice(browser)
         self.clickLogOut(browser)
+
 
 
         return
 
 
     def invoiceDownloader(self):
+
+        profile = webdriver.FirefoxProfile()
+
+        profile.set_preference('browser.download.dir', "/home/hai/Desktop")
+        profile.set_preference('browser.download.folderList', 2)
+        profile.set_preference("browser.helperApps.alwaysAsk.force", False);
+        profile.set_preference("browser.download.manager.showWhenStarting", False);
+        profile.set_preference('browser.helperApps.neverAsk.saveToDisk', ("application/pdf"))
+
         first_page = 'https://www.zara.com/es/en/'
         accountFile = 'AccountList.csv'
 
-        browser = webdriver.Firefox()
+        browser = webdriver.Firefox(profile)
+        somethine = input("Your age? ")
         browser.get(first_page)
-
         # create list of account from a file
         accList = AccountList()
         accList.accGetter(accountFile)
 
         for account in accList.getAccList():
             self.getInvoiceByAccount(browser, account)
+        browser.close()
 
 acction = Action()
 acction.invoiceDownloader()
