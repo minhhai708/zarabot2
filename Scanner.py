@@ -7,12 +7,13 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 from selenium.common.exceptions import NoSuchElementException
+from selenium.common.exceptions import StaleElementReferenceException
 from Order import OrderList
 from Account import AccountList
 import os
+from Tools import Tools
 
-
-WAIT_TIME = 2
+WAIT_TIME =5
 TRUE = 1
 FALSE = 0
 
@@ -62,6 +63,9 @@ class Action():
             browser.find_element_by_class_name('_accountLink._userName').click()
         except NoSuchElementException:
             print("NoSuchElementException- clickAccountMenu")
+            return
+        except TimeoutException:
+            print("TimeoutException- clickAccountMenu")
             return
     def clickLogIn(self, browser):
         loginLink = '_accountLink._login'
@@ -129,8 +133,7 @@ class Action():
         #create list of account from a file
         accList = AccountList()
         accList.accGetter(accountFile)
-        #create list of order
-        #Scan all account and get info
+        #Scan all account and save order scanned in listOrders
         for acc in accList.getAccList():
             self.getAccountInfo(browser, acc,listOrders)
         #Save all scanned orders in a file
@@ -147,35 +150,72 @@ class Action():
         except NoSuchElementException:
             print("NoSuchElementException- clickInvoices")
             return
+        except TimeoutException:
+            print("TIME OUT-clickInvoices")
+        return
 
-    def clickDownloadInvoice(self, browser):
+    def clickDownloadInvoice(self, browser, dateLimit,dateFormat):
         invoicesDownload = "button-primary.button-medium._invoice-download"
         downloadText = "Download"
+        contentTable = "content-dotted-table.invoice-list-table"
+        tbodyTAG = "tbody"
+        moreInvoice = True
         try:
+            WebDriverWait(browser, WAIT_TIME).until(EC.presence_of_all_elements_located((By.CLASS_NAME, contentTable)))
             WebDriverWait(browser, WAIT_TIME).until(EC.element_to_be_clickable((By.PARTIAL_LINK_TEXT,downloadText)))
+            tbodyEle = browser.find_element_by_tag_name(tbodyTAG)
             links = browser.find_elements_by_class_name(invoicesDownload)
-            for l in links:
-                l.click()
+            linkList = Tools.zaraGetDownloadIndexByDate(tbodyEle.text, dateLimit,dateFormat)
+            if not linkList:
+                moreInvoice = False
+                return moreInvoice
+            for linkIndex in linkList:
+                print("Downloading " + tbodyEle.text.splitlines()[linkIndex])
+                attempt = 0
+                try:
+                    links[linkIndex].click()
+                except StaleElementReferenceException:
+                    links[linkIndex].click()
+
+            return moreInvoice
+            #for l in links:
+            #    l.click()
         except TimeoutException:
             print("TIME OUT-clickDownloadInvoice")
             return
         except NoSuchElementException:
-            print("NO ELEMENT")
+            print("NO ELEMENT-here")
             return
 
-    def getInvoiceByAccount(self, browser, account):
+    def clickNextInvoicePage(self, browser):
+        nextpage = 'icon-arrow-right._table-nav-next._prevPage'
+        isFinalPage = False
+        try:
+            WebDriverWait(browser, WAIT_TIME).until(EC.element_to_be_clickable((By.CLASS_NAME, nextpage)))
+            browser.find_element_by_class_name(nextpage).click()
+            return isFinalPage
+        except TimeoutException as e:
+            print("MOVE TO FINAL PAGE")
+            isFinalPage = True
+            return isFinalPage
+        except NoSuchElementException:
+            print("NoSuchElementException- move_NextPage")
+            isFinalPage = True
+            return isFinalPage
 
-
-
-
+    def getInvoiceByAccount(self, browser, account, dateLimit):
+        isFinalPage = False
+        moreInvoice = True
         self.clickLogIn(browser)
         self.logIn(browser, account.getEmail(), account.getPassword())
         self.clickAccountMenu(browser)
         self.clickInvoices(browser)
-        self.clickDownloadInvoice(browser)
+
+        while isFinalPage == False and moreInvoice == True:
+            moreInvoice = self.clickDownloadInvoice(browser, dateLimit, dateFormat='%m/%d/%Y')
+            isFinalPage = self.clickNextInvoicePage(browser)
+
         self.clickLogOut(browser)
-
-
 
         return
 
@@ -184,24 +224,24 @@ class Action():
 
         profile = webdriver.FirefoxProfile()
 
-        profile.set_preference('browser.download.dir', "/home/hai/Desktop")
+        profile.set_preference('browser.download.dir', "/home/hai/Desktop/test")
         profile.set_preference('browser.download.folderList', 2)
         profile.set_preference("browser.helperApps.alwaysAsk.force", False);
         profile.set_preference("browser.download.manager.showWhenStarting", False);
-        profile.set_preference('browser.helperApps.neverAsk.saveToDisk', ("application/pdf"))
+        profile.set_preference('browser.helperApps.neverAsk.saveToDisk', ("application/PDF"))
 
         first_page = 'https://www.zara.com/es/en/'
         accountFile = 'AccountList.csv'
 
         browser = webdriver.Firefox(profile)
-        somethine = input("Your age? ")
+        #somethine = input("Your age? ")
         browser.get(first_page)
         # create list of account from a file
         accList = AccountList()
         accList.accGetter(accountFile)
-
+        input("Please check autoDownload pdf")
         for account in accList.getAccList():
-            self.getInvoiceByAccount(browser, account)
+            self.getInvoiceByAccount(browser, account, "07/01/2017")
         browser.close()
 
 acction = Action()

@@ -67,9 +67,9 @@ class OrderList(object):
         space = ' '
         newLine = '\n'
         lastOrder = False
-        existOrder = True
+        existMoreOrder = True
         rawText = rawText[rawText.find(newLine)+1:]
-        while (existOrder == True) :
+        while (existMoreOrder == True) :
             skipLine = False
 
             date = rawText[:rawText.find(space)]
@@ -111,7 +111,7 @@ class OrderList(object):
             else:
                 lastOrder = True
             if (lastOrder == True):
-                existOrder = False
+                existMoreOrder = False
 
             if (skipLine == False):
                 newOrder = Order(date,order,status,value,brand,client, email)
