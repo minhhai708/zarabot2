@@ -6,6 +6,7 @@ class Account(object):
         self.email = email
         self.pwd =pwd
         self.brand = brand
+        self.lastCheck = ""
     def getEmail(self):
         return self.email
     def getPassword (self):
@@ -27,7 +28,7 @@ class AccountList(object):
 
     def accGetter(self, fileName):
         with open(fileName) as csvfile:
-            contentReader = csv.reader(csvfile, delimiter='|',quotechar = '|')
+            contentReader = csv.reader(csvfile, delimiter=',',quotechar = '|')
             for row in contentReader:
                 account = Account(row[0], row[1], row[2], row[3])
                 self.addNewAccount(account)

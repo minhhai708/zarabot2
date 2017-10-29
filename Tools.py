@@ -1,4 +1,12 @@
 from datetime import datetime
+import csv
+
+
+WAIT_TIME =5
+TRUE = 1
+FALSE = 0
+UNSUCCESSFUL = -1
+SUCCESSFUL = 1
 
 class Tools():
     @staticmethod
@@ -14,7 +22,8 @@ class Tools():
 
     #return a list of download link that has date
     @staticmethod
-    def zaraGetDownloadIndexByDate(invoicePage, dateMax, dateformat):
+    def zaraGetDownloadIndexByDate(invoicePage, dateMax):
+        dateformat = '%m/%d/%Y'
         count = 0
         downloadList = []
         separation = " "
@@ -29,9 +38,13 @@ class Tools():
         return downloadList
 
     @staticmethod
-    def test():
-        dateString= "7/22/2017 375556694 99.89 EUR DOWNLOAD\n7/20/2017 374798168 106.88 EUR DOWNLOAD\n" \
-              "7/20/2017 374740581 88.83 EUR DOWNLOAD\n7/19/2017 374565283 267.10 EUR DOWNLOAD\n" \
-              "7/17/2017 372825024 125.86 EUR DOWNLOAD\n"
-        maxDate = "7/17/2017"
-        print(Tools.zaraGetDownloadIndexByDate(dateString,maxDate, '%m/%d/%Y'))
+    def invoiceWriter(account, line, outputfile):
+        with open(outputfile, 'a+') as csvfile:
+            spamwriter = csv.writer(csvfile, delimiter=' ', quotechar=' ', quoting=csv.QUOTE_MINIMAL)
+            spamwriter.writerow([account.getEmail(), line])
+
+    @staticmethod
+    def account(account, line, outputfile):
+        with open(outputfile, 'a+') as csvfile:
+            spamwriter = csv.writer(csvfile, delimiter=' ', quotechar=' ', quoting=csv.QUOTE_MINIMAL)
+            spamwriter.writerow([account.getEmail(), line])
