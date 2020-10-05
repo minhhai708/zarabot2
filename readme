@@ -1,0 +1,4 @@
+#running environment 
+chmod +x ./envname/bin/activate
+source ./envname/bin/activate
+python zaraDownloader.py
