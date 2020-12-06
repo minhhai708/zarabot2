@@ -5,11 +5,12 @@ from datetime import datetime
 
 
 class Invoice():
-    def __init__(self, date, order, amount, email):
+    def __init__(self, date, order, amount, href, email):
         self.date = date
         self.order = order.replace('Order No. ', '')
         self.amount = amount.replace(" EUR", '')
         self.account = email
+        self.href = href
 
     def getDate(self):
         return self.date
@@ -44,7 +45,7 @@ class Invoice():
         """
         with open(fout, 'a+') as csvfile:
             spamwriter = csv.writer(csvfile, delimiter='|', quotechar='|', quoting=csv.QUOTE_MINIMAL)
-            spamwriter.writerow([self.account, self.date, self.order, self.amount])
+            spamwriter.writerow([self.account.getEmail(), self.date, self.order, self.amount, self.href])
 
     def __str__(self):
         ret = self.date
@@ -52,18 +53,18 @@ class Invoice():
         ret += '-' + self.amount
         return ret
 
+
 #
-#
-# def main(argv):
-#     inv = Invoice("9/24/2020", "Order No. 51781674323", "87.83 EUR")
-#     print(inv.isOutdated("9/23/2020"))
-#     print(inv.isOutdated("09/23/2020"))
-#     print(inv.isOutdated("9/24/2020"))
-#     print(inv.isOutdated("09/24/2020"))
-#     print(inv.isOutdated("9/25/2020"))
-#     print(inv.isOutdated("09/25/2020"))
-#     print(inv)
-#     return
-#
-#
-# if __name__ == '__main__': sys.exit(main(sys.argv))
+
+def main(argv):
+    inv = [Invoice("10/24/2020", "Order No. 51781674323", "87.83 EUR", "href", "email"),
+               Invoice("10/23/2020", "Order No. 51781674323", "87.83 EUR", "href", "email"),
+               Invoice("10/22/2020", "Order No. 51781674323", "87.83 EUR", "href", "email")]
+    d = "10/23/2020"
+    for i in inv:
+        print('Limit', i.isOutdated(d), i.getDate())
+    print(inv)
+    return
+
+
+if __name__ == '__main__': sys.exit(main(sys.argv))
