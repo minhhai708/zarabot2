@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2bc1840c-8152-49ef-a8af-0f60620ad6aa" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/Log/06_12_2020_12:27:08.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Log/06_12_2020_12:27:08.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/geckodriver.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +129,7 @@
       <workItem from="1604439035701" duration="176000" />
       <workItem from="1606945316942" duration="647000" />
       <workItem from="1607087161488" duration="610000" />
-      <workItem from="1607254009930" duration="793000" />
+      <workItem from="1607254009930" duration="1098000" />
     </task>
     <servers />
   </component>
