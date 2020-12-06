@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bc1840c-8152-49ef-a8af-0f60620ad6aa" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACCOUNT/THUY.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ACCOUNT/THUY.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACCOUNT/THUY2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ACCOUNT/THUY2.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BershkaDownloader.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Invoice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Invoice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InvoiceLog.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THUY/Invoice_268212886.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THUY/Invoice_273105710.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THUY/Invoice_273105908.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THUY/Invoice_273106774.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THUY/Invoice_273109871(1).pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THUY/Invoice_273109871.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THUY/Invoice_273367143(1).pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THUY/Invoice_273367143.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zaraDownloader.py" beforeDir="false" afterPath="$PROJECT_DIR$/zaraDownloader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/06_12_2020_12:27:08.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Log/06_12_2020_12:27:08.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +128,7 @@
       <workItem from="1604439035701" duration="176000" />
       <workItem from="1606945316942" duration="647000" />
       <workItem from="1607087161488" duration="610000" />
-      <workItem from="1607254009930" duration="350000" />
+      <workItem from="1607254009930" duration="793000" />
     </task>
     <servers />
   </component>
