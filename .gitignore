@@ -2,6 +2,15 @@
 # Created by https://www.toptal.com/developers/gitignore/api/python
 # Edit at https://www.toptal.com/developers/gitignore?templates=python
 
+
+THUY2/
+THUY/
+old/
+ACCOUNT/
+Log/
+
+
+
 ### Python ###
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -12,12 +21,6 @@ __pycache__/
 *.so
 
 # Distribution / packaging
-THUY2/
-THUY/
-old/
-ACCOUNT/
-Log/
-
 .Python
 build/
 develop-eggs/
