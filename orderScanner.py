@@ -35,9 +35,17 @@ class Downloader(object):
         profile.set_preference("browser.helperApps.neverAsk.saveToDisk", 'application/pdf ')
 
         self.browser = webdriver.Firefox(profile)
+
+        # Max date to download
         self.dateLimit = dateLimit
+
+        # Log file location
         self.logFile = os.getcwd() + '/Log/' + datetime.now().strftime("%d_%m_%Y_%H:%M:%S") + '.csv'
+
+        # Current invoice page location
         self.currentpage = 1
+
+        #Accountlocation
         self.accList = AccountList(fileName='ACCOUNT/' + client + '.csv')
         self.outofInvocie = False
         self.isfinalpage = False
