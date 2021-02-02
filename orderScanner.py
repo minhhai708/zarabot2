@@ -42,12 +42,16 @@ class Downloader(object):
         # Log file location
         self.logFile = os.getcwd() + '/Log/' + datetime.now().strftime("%d_%m_%Y_%H:%M:%S") + '.csv'
 
+        #Accountlocation
+        self.accList = AccountList(fileName='ACCOUNT/' + client + '.csv')
+
+        # Out of invoice indicator
+        self.outofInvocie = False
+
         # Current invoice page location
         self.currentpage = 1
 
-        #Accountlocation
-        self.accList = AccountList(fileName='ACCOUNT/' + client + '.csv')
-        self.outofInvocie = False
+        # Final page indicator
         self.isfinalpage = False
 
     def logout(self):
@@ -61,6 +65,7 @@ class Downloader(object):
         print("Page line:", pageIndex.text)
         currentPage = int(pageIndex.text.split()[1])
         totalPage = int(pageIndex.text.split()[3])
+
         # Check if we are in the final invoice page
         print("Current page ", currentPage, '/', totalPage)
 
